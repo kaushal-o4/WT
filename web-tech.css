@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    background-color:white;
+    padding: 30px;
+    width: 400px;
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.main-container:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+img#profile-picture {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #ddd;
+}
+
+.bio-info h2 {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+    text-align: left;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    transform: scale(0.98);
+}
